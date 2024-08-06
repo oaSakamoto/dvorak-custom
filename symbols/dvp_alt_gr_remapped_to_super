@@ -1,0 +1,6 @@
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+        include "us(dvp)"
+        name[Group1] = "Modified programmer Dvorak";
+        key <RALT> { [ Super_L, Super_R ] };
+};
