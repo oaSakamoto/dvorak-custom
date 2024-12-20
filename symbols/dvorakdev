@@ -48,7 +48,7 @@ xkb_symbols "basic" {
   };
   key <AE12> {
     type= "FOUR_LEVEL",
-    symbols[Group1]=[grave, dead_acute, section, dead_ogonek ]
+    symbols[Group1]=[grave, asciicircum, dead_circumflex, dead_ogonek ]
   };
   key <BKSP> {
     [BackSpace, BackSpace]
@@ -86,7 +86,7 @@ xkb_symbols "basic" {
   };
   key <AD08> {
     type= "FOUR_LEVEL_ALPHABETIC",
-    symbols[Group1]=[c, C, rightarrow, idotless]
+    symbols[Group1]=[c, C, ccedilla, Ccedilla]
   };
   key <AD09> {
     type= "FOUR_LEVEL_ALPHABETIC",
